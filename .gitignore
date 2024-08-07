@@ -1,0 +1,5 @@
+Datasets/*
+.env
+
+# exception to the rule
+!Datasets/.gitkeep 

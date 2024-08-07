@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "petcher-tags"
+version = "0.1.0"
+description = "It is the first version of poetry enviroment"
+authors = ["Solarev Ruslan <ruslan251207@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+pandas = "1.5.3"
+matplotlib = "^3.9.0"
+scikit-learn = "^1.4.2"
+seaborn = "^0.13.2"
+wordcloud = "^1.9.3"
+environs = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
